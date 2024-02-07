@@ -78,7 +78,7 @@ function App() {
 
         <div className="text-center w-100">
           <a className="text-center mx-5 text-dark" href="#1">
-            <i class="bi bi-arrow-down fs-1"></i>
+            <i className="bi bi-arrow-down fs-1"></i>
           </a>
         </div>
 
