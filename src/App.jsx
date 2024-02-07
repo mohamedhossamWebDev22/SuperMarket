@@ -5,7 +5,7 @@ import { Button, Nav, Navbar, Container, Carousel, Card } from "react-bootstrap"
 
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import CardD from "./components/CardD";
+import CardD from "./components/cardD";
 import Product from "./components/product";
 import NavBar from "./components/navBar";
 import Footr from "./components/footer"
