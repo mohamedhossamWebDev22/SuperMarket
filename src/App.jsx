@@ -91,7 +91,7 @@ function App() {
               Features
             </a>
           </h1>
-          <div className="row mt-1 p-5">
+          <div className="row mt-1 py-5">
             <div className="col-6 col-sm-3">
               <CardD
                 img={img1}
@@ -133,7 +133,7 @@ function App() {
             </a>
           </h1>
 
-          <div className="row mt-1 p-2">
+          <div className="row mt-1 py-2">
             <div className="col-6 col-sm-3">
               <Product
                 img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.WPL87E8AkRTq9W-EHCn8JAHaHa%26pid%3DApi&f=1&ipt=88c8b89301312bb2f22fe5dd9c5117fc789526feb66b7f5b5940c853c8f4d6b6&ipo=images"
@@ -163,7 +163,7 @@ function App() {
               />
             </div>
           </div>
-          <div className="row mb-1 p-2">
+          <div className="row mb-1 py-2">
             <div className="col-6 col-sm-3">
               <Product
                 img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.y3s3p2sMLP4ZVffgtaRYvwHaHa%26pid%3DApi&f=1&ipt=67b7e2c1f664ea37c95ee30058a9fc4595ce1a014dcd586bb3216baf77f91a59&ipo=images"
