@@ -1,14 +1,21 @@
 import "./style.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Nav, Navbar, Container, Carousel, Card } from "react-bootstrap";
+import {
+  Button,
+  Nav,
+  Navbar,
+  Container,
+  Carousel,
+  Card,
+} from "react-bootstrap";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 import CardD from "./components/cardD";
 import Product from "./components/product";
 import NavBar from "./components/navBar";
-import Footr from "./components/footer"
+import Footr from "./components/footer";
 
 import img1 from "./assets/1.png";
 import img2 from "./assets/2.png";
@@ -18,10 +25,10 @@ import img4 from "./assets/4.png";
 function App() {
   return (
     <>
-      <NavBar/>
+      <NavBar />
 
-      <div className="container mt-5 pt-5">
-        <p id="0" className="text-center mb-1">
+      <div className="bg-success text-light">
+        <p id="0" className="text-center mb-1 mt-5 pt-5 text-light">
           The Best
           <a className="text-shadow text-decoration-none text-danger fs-1 fw-bold">
             {" "}
@@ -77,49 +84,52 @@ function App() {
         </Carousel>
 
         <div className="text-center w-100">
-          <a className="text-center mx-5 text-dark" href="#1">
+          <a className="text-center mx-5 text-light" href="#1">
             <i className="bi bi-arrow-down fs-1"></i>
           </a>
         </div>
+      </div>
 
-        <hr className="my-2" />
+      <div className="container mt-5 pt-5">
 
-        <div id="1" className="features text-center my-4 py-4">
-          <h1 className="fs-2 mt-5">
-            Our{" "}
-            <a className="bg-success p-1 text-decoration-none text-light">
-              Features
-            </a>
-          </h1>
-          <div className="row mt-1 py-5">
-            <div className="col-6 col-sm-3">
-              <CardD
-                img={img1}
-                title="Fastest Delivery"
-                txt="speed delivery always on time!"
-              />
-            </div>
-            <div className="col-6 col-sm-3">
-              <CardD
-                img={img3}
-                title="Best Prices"
-                txt="get the best deals in town!"
-              />
-            </div>
-            <div className="col-6 col-sm-3">
-              <CardD
-                img={img2}
-                title="Good Quality"
-                txt="Experience unparalleled quality."
-              />
-            </div>
-            <div className="col-6 col-sm-3">
-              <CardD
-                img={img4}
-                title="Near From You"
-                txt="discover our services just around the corner!"
-              />
-            </div>
+      <hr className="my-2" />
+
+
+      <div id="1" className="features text-center my-4 py-4">
+        <h1 className="fs-2 mt-5">
+          Our{" "}
+          <a className="bg-success p-1 text-decoration-none text-light">
+            Features
+          </a>
+        </h1>
+        <div className="row mt-1 py-5">
+          <div className="col-6 col-sm-3">
+            <CardD
+              img={img1}
+              title="Fastest Delivery"
+              txt="speed delivery always on time!"
+            />
+          </div>
+          <div className="col-6 col-sm-3">
+            <CardD
+              img={img3}
+              title="Best Prices"
+              txt="get the best deals in town!"
+            />
+          </div>
+          <div className="col-6 col-sm-3">
+            <CardD
+              img={img2}
+              title="Good Quality"
+              txt="Experience unparalleled quality."
+            />
+          </div>
+          <div className="col-6 col-sm-3">
+            <CardD
+              img={img4}
+              title="Near From You"
+              txt="discover our services just around the corner!"
+            />
           </div>
         </div>
 
@@ -232,7 +242,8 @@ function App() {
         </div>
       </div>
 
-      <Footr/>
+      </div>
+      <Footr />
     </>
   );
 }
